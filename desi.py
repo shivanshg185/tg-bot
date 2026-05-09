@@ -50,6 +50,13 @@ async def handle_plan(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # ================= DAILY PLAN =================
     if plan == "daily":
+        demo_link1 = "https://telegra.ph/daily-desi-05-09"
+
+        # 🔘 Button for better UI
+        keyboard = [
+            [InlineKeyboardButton("👀 View Demo", url=demo_link1)]
+        ]
+        
         await query.message.reply_text(
             "💰 <b>Daily Desi</b>\n\n"
             "💳 Pay ₹300 using QR below\n\n"
