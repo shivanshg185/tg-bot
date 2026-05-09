@@ -73,7 +73,7 @@ async def handle_plan(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # ================= PREMIUM PLAN =================
     elif plan == "premium":
-        demo_link = "https://rentry.co/q7nb4fow"
+        demo_link = "https://teletype.in/@g185/72RSY57434N"
 
         # 🔘 Button for better UI
         keyboard = [
