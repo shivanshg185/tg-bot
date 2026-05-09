@@ -59,9 +59,10 @@ async def handle_plan(update: Update, context: ContextTypes.DEFAULT_TYPE):
         
         await query.message.reply_text(
             "💰 <b>Daily Desi</b>\n\n"
-            "💳 Pay ₹300 using QR below\n\n"
-            "Then send screenshot here.",
-            parse_mode="HTML"
+            "🔥 Click below to view demo content\n\n"
+            "💳 After viewing, pay ₹300 using QR",
+            parse_mode="HTML",
+            reply_markup=InlineKeyboardMarkup(keyboard)
         )
 
         try:
